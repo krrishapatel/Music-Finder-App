@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Stuck in My Head - Find Your Mystery Song</title>
+    <meta name="description" content="Can't remember that song stuck in your head? Search by lyrics, description, or hum it!">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">🎵 Song Stuck in My Head</h1>
+            <p class="site-subtitle">Finally find that tune you can't stop humming!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Search Methods -->
+            <div class="search-methods">
+                <h2>How would you like to find your song?</h2>
+
+                <!-- Method 1: Lyrics Search -->
+                <div class="search-method" id="lyrics-method">
+                    <div class="method-header">
+                        <h3>📝 Search by Lyrics</h3>
+                        <p>Enter any words or phrases you remember</p>
+                    </div>
+                    <div class="method-content">
+                        <textarea
+                            id="lyrics-input"
+                            placeholder="Enter lyrics like: 'don't stop believing' or 'twinkle twinkle little star'"
+                            rows="4"
+                        ></textarea>
+                        <button id="lyrics-search-btn" class="search-btn">Search Lyrics</button>
+                    </div>
+                </div>
+
+                <!-- Method 2: Description Search -->
+                <div class="search-method" id="description-method">
+                    <div class="method-header">
+                        <h3>🧠 Describe the Song</h3>
+                        <p>Tell us what you remember about it</p>
+                    </div>
+                    <div class="method-content">
+                        <textarea
+                            id="description-input"
+                            placeholder="Example: '80s rock song with electric guitar, male vocalist, lyrics about breaking free'"
+                            rows="4"
+                        ></textarea>
+                        <button id="description-search-btn" class="search-btn">Search Description</button>
+                    </div>
+                </div>
+
+                <!-- Method 3: Audio Search -->
+                <div class="search-method" id="audio-method">
+                    <div class="method-header">
+                        <h3>🎤 Hum or Sing</h3>
+                        <p>Record yourself humming the melody</p>
+                    </div>
+                    <div class="method-content">
+                        <div id="audio-recorder" class="audio-recorder">
+                            <div id="audio-status" class="audio-status">
+                                <div class="microphone-icon">🎤</div>
+                                <p>Click "Start Recording" to hum or sing your song</p>
+                            </div>
+
+                            <div id="recording-controls" class="recording-controls">
+                                <button id="start-recording-btn" class="record-btn start-btn">
+                                    🔴 Start Recording
+                                </button>
+                                <button id="stop-recording-btn" class="record-btn stop-btn" disabled>
+                                    ⏹️ Stop Recording
+                                </button>
+                            </div>
+
+                            <div id="audio-processing" class="audio-processing hidden">
+                                <div class="processing-animation">
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                    <div class="wave-bar"></div>
+                                </div>
+                                <p>Analyzing your melody...</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progress-fill"></div>
+                                </div>
+                            </div>
+
+                            <div id="audio-results" class="audio-results hidden">
+                                <p class="audio-result-text">Found potential matches! Check results below.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Results -->
+            <div id="results-section" class="results-section hidden">
+                <h2>🔍 Search Results</h2>
+                <div id="results-container" class="results-container">
+                    <!-- Results will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Searching through songs...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Song Stuck in My Head - Made with ❤️ for music lovers</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/songs.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
