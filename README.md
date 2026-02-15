@@ -1,25 +1,25 @@
-# 🎵 Song Stuck in My Head - Music Recognition Website
+#  Song Stuck in My Head - Music Recognition Website
 
 **A vibrant, AI-powered music discovery platform with advanced humming recognition!**
 
-## 🚀 Current Features
+##  Current Features
 
-### ✅ Completed (Vanilla HTML/CSS/JS)
-- **🎤 Smart Audio Recognition**: Advanced humming analysis with 8+ parameters
-- **📝 Lyrics Search**: Search through 105+ songs with fuzzy matching
-- **🧠 Description Search**: Find songs by mood, era, genre, artist
-- **🌈 Vibrant 2026 Design**: Colorful, animated, mobile-responsive UI
-- **📊 Intelligent Matching**: Duration, tempo, complexity, and vocal style analysis
-- **🎶 Massive Song Database**: 105 songs across all genres (Pop, Rock, Bollywood, K-pop, etc.)
-- **📱 Mobile-First**: Works perfectly on all devices
+### Completed (Vanilla HTML/CSS/JS)
+- ** Smart Audio Recognition**: Advanced humming analysis with 8+ parameters
+- ** Lyrics Search**: Search through 105+ songs with fuzzy matching
+- ** Description Search**: Find songs by mood, era, genre, artist
+- ** Vibrant 2026 Design**: Colorful, animated, mobile-responsive UI
+- ** Intelligent Matching**: Duration, tempo, complexity, and vocal style analysis
+- ** Massive Song Database**: 105 songs across all genres (Pop, Rock, Bollywood, K-pop, etc.)
+- ** Mobile-First**: Works perfectly on all devices
 
-### 🎯 Key Improvements Made
+###  Key Improvements Made
 - **Audio Recognition**: Now analyzes melody complexity, tempo, emotional tone, and vocal style
 - **Song Database**: Expanded from 40 to 105 songs with latest hits (2024-2026)
 - **UI Design**: Complete redesign with vibrant colors, animations, and modern aesthetics
 - **Smart Matching**: Uses 7+ factors for accurate song identification
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Current (Vanilla)
 - **HTML5**: Semantic markup
@@ -34,13 +34,13 @@
 - **shadcn/ui**: Modern component library
 - **Next.js**: Full-stack React framework
 
-## 🎨 Design Highlights
+##  Design Highlights
 
-- **🌈 Rainbow Theme**: Vibrant gradients and colors
-- **✨ Glass Morphism**: Translucent elements with backdrop blur
-- **🎭 Animations**: Floating backgrounds, wave effects, hover states
-- **📐 Modern Typography**: Inter font with perfect spacing
-- **🎪 Creative Layout**: Cards, gradients, and visual effects
+- ** Rainbow Theme**: Vibrant gradients and colors
+- ** Glass Morphism**: Translucent elements with backdrop blur
+- ** Animations**: Floating backgrounds, wave effects, hover states
+- ** Modern Typography**: Inter font with perfect spacing
+- ** Creative Layout**: Cards, gradients, and visual effects
 
 ## 🎵 Try It Now!
 
@@ -56,7 +56,7 @@ python3 -m http.server 8000
 2. **Medium hum** (6-12 seconds) → Matches pop songs, romantic ballads
 3. **Long hum** (> 12 seconds) → Complex songs, rock anthems, detailed melodies
 
-## 🔄 React Upgrade Path
+##  React Upgrade Path
 
 ### Why Upgrade to React?
 - **Component Reusability**: Build once, use everywhere
@@ -142,7 +142,7 @@ export default function Home() {
 - **Tablet**: 2-column grids, adjusted spacing
 - **Desktop**: Full navigation, partner logos grid
 
-## 🚀 Next Steps
+##  Next Steps
 
 ### Immediate (Current Project):
 1. **Test Audio Recognition**: Try different humming lengths
