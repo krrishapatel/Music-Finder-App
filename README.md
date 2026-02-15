@@ -163,7 +163,7 @@ export default function Home() {
 - **Mobile Score**: 95/100 on Lighthouse
 - **Accessibility**: WCAG 2.1 AA compliant
 
-**Try humming your favorite song right now! **
+**Try humming your favorite song right now!**
 
 ---
 
