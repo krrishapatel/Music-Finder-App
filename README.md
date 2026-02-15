@@ -124,7 +124,7 @@ export default function Home() {
 }
 ```
 
-## 🎯 Component Features
+##  Component Features
 
 ### ResponsiveHeroBanner Props:
 - `logoUrl`: Company logo image
@@ -156,7 +156,7 @@ export default function Home() {
 4. **Add Audio Recording**: Implement real Web Audio API
 5. **Deploy**: Host on Vercel/Netlify
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 - **Audio Accuracy**: 85%+ match rate with smart analysis
 - **Load Time**: < 2 seconds on modern devices
