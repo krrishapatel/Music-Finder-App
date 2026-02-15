@@ -5,13 +5,13 @@
 ##  Current Features
 
 ### Completed (Vanilla HTML/CSS/JS)
-- ** Smart Audio Recognition**: Advanced humming analysis with 8+ parameters
-- ** Lyrics Search**: Search through 105+ songs with fuzzy matching
-- ** Description Search**: Find songs by mood, era, genre, artist
-- ** Vibrant 2026 Design**: Colorful, animated, mobile-responsive UI
-- ** Intelligent Matching**: Duration, tempo, complexity, and vocal style analysis
-- ** Massive Song Database**: 105 songs across all genres (Pop, Rock, Bollywood, K-pop, etc.)
-- ** Mobile-First**: Works perfectly on all devices
+- **Smart Audio Recognition**: Advanced humming analysis with 8+ parameters
+- **Lyrics Search**: Search through 105+ songs with fuzzy matching
+- **Description Search**: Find songs by mood, era, genre, artist
+- **Vibrant 2026 Design**: Colorful, animated, mobile-responsive UI
+- **Intelligent Matching**: Duration, tempo, complexity, and vocal style analysis
+- **Massive Song Database**: 105 songs across all genres (Pop, Rock, Bollywood, K-pop, etc.)
+- **Mobile-First**: Works perfectly on all devices
 
 ###  Key Improvements Made
 - **Audio Recognition**: Now analyzes melody complexity, tempo, emotional tone, and vocal style
@@ -36,11 +36,11 @@
 
 ##  Design Highlights
 
-- ** Rainbow Theme**: Vibrant gradients and colors
-- ** Glass Morphism**: Translucent elements with backdrop blur
-- ** Animations**: Floating backgrounds, wave effects, hover states
-- ** Modern Typography**: Inter font with perfect spacing
-- ** Creative Layout**: Cards, gradients, and visual effects
+- **Rainbow Theme**: Vibrant gradients and colors
+- **Glass Morphism**: Translucent elements with backdrop blur
+- **Animations**: Floating backgrounds, wave effects, hover states
+- **Modern Typography**: Inter font with perfect spacing
+- **Creative Layout**: Cards, gradients, and visual effects
 
 ## 🎵 Try It Now!
 
