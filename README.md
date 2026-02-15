@@ -42,7 +42,7 @@
 - **Modern Typography**: Inter font with perfect spacing
 - **Creative Layout**: Cards, gradients, and visual effects
 
-## 🎵 Try It Now!
+##  Try It Now!
 
 ```bash
 # Start the server
